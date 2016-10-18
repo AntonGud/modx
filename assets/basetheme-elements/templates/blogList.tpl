@@ -1,0 +1,11 @@
+[[$metaBase]]
+[[$headerBase]]
+[[!getPage?
+    &elementClass=`modSnippet`
+    &element=`getResources`
+    &tpl=`viewBlogList`
+    &parents=`3`
+    &limit=`2`
+]]
+[[$navPage]]
+[[$footerBase]]
