@@ -6,11 +6,7 @@
             </div>
             <div class="cssmenu">
                 <ul>
-                    [[Wayfinder?
-                    &startId=`0`
-                    &level=`1`
-                    &rowTpl=`navHeaderBase.tpl`
-                    ]]
+                    [[pdoMenu? &level=`1` &parents=`0`  &outerClass=`nav`]]
                 </ul>
             </div>
             <div class="clear"></div>

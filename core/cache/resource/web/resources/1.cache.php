@@ -2,35 +2,35 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 3,
+    'id' => 1,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Блог',
-    'longtitle' => '',
-    'description' => 'Статьи',
-    'alias' => 'bloglist',
+    'pagetitle' => 'Главная',
+    'longtitle' => 'Поздравляем!',
+    'description' => '',
+    'alias' => 'index',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
     'unpub_date' => 0,
     'parent' => 0,
-    'isfolder' => 1,
+    'isfolder' => 0,
     'introtext' => '',
     'content' => '',
     'richtext' => 1,
-    'template' => 4,
-    'menuindex' => 1,
+    'template' => 2,
+    'menuindex' => 0,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1475606894,
+    'createdon' => 1475388299,
     'editedby' => 1,
-    'editedon' => 1475612583,
+    'editedon' => 1475683917,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
     'publishedon' => 0,
-    'publishedby' => 1,
+    'publishedby' => 0,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
@@ -40,7 +40,7 @@
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'bloglist',
+    'uri' => 'index',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
@@ -76,8 +76,8 @@
             });
         </script>
         <!-- end my metaBase -->
-        <!--<title>Блог lf_site_name</title>-->
-        <meta name="description" content="Статьи" />
+        <!--<title>Поздравляем!</title>-->
+        <meta name="description" content="lf_description" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
@@ -88,7 +88,7 @@
         <!-- Add to homescreen for Safari on iOS -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="Блог lf_site_name">
+        <meta name="apple-mobile-web-app-title" content="Поздравляем!">
 
         <link rel="apple-touch-icon" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="76x76" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon-ipad.png">
@@ -97,7 +97,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon-iphone6plus-retina.png">
 
         <!-- Tile icon for Win8 -->
-        <meta name="application-name" content="Блог lf_site_name">
+        <meta name="application-name" content="Поздравляем!">
         <meta name="msapplication-TileColor" content="#79b316">
         <meta name="msapplication-square70x70logo" content="[[++basetheme.design_url]]images/iconsite/msapplication-square70x70logo.png"/>
         <meta name="msapplication-square150x150logo" content="[[++basetheme.design_url]]images/iconsite/msapplication-square150x150logo.png"/>
@@ -108,9 +108,9 @@
 		<meta name="cmsmagazine" content="a39ef97fd1d4cf6d3e103f0ff48ea4f6" />
 
         <!-- SOCIAL BLOCK -->
-        <meta property="og:title" content="Блог lf_site_name" >
-        <meta property="og:description" content="Статьи" >
-        <meta property="og:url" content="http://modxws/public.html/index.php?id=3" />
+        <meta property="og:title" content="Поздравляем!" >
+        <meta property="og:description" content="lf_description" >
+        <meta property="og:url" content="http://modxws/public.html/index.php?id=1" />
 
         <meta property="og:image" content="[[++basetheme.design_url]]images/iconsite/social-image.png" >
         <meta property="og:site_name" content="lf_site_name" />
@@ -124,8 +124,8 @@
         <meta name="twitter:card" content="summary_large_image">
         
         
-        <meta name="twitter:title" content="Блог lf_site_name">
-        <meta name="twitter:description" content="Статьи">
+        <meta name="twitter:title" content="Поздравляем!">
+        <meta name="twitter:description" content="lf_description">
         <meta name="twitter:image:src" content="[[++basetheme.design_url]]images/iconsite/twitter-image.png">
 
         <!-- Social: Google+ / Schema.org  -->
@@ -178,8 +178,8 @@
     </head>
     <body itemscope itemtype="http://schema.org/WebSite">
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Блог lf_site_name">
-        <meta itemprop="description" content="Статьи">
+        <meta itemprop="name" content="Поздравляем!">
+        <meta itemprop="description" content="lf_description">
         <link itemprop="image" content="[[++basetheme.design_url]]images/iconsite/social-image.png">
 <div class="header">
     <div class="wrap">
@@ -189,7 +189,7 @@
             </div>
             <div class="cssmenu">
                 <ul>
-                    <ul class="nav"><li class="first"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last active"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>
+                    <ul class="nav"><li class="first active"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -197,17 +197,144 @@
     </div>
 </div>
 
-[[!getPage?
-    &elementClass=`modSnippet`
-    &element=`getResources`
-    &tpl=`viewBlogList`
-    &parents=`3`
-    &limit=`2`
-]]
-<div class="page-nav">
-    <ul>
-        [[!+page.nav]]
-    </ul>
+<body>
+
+<div class="main">
+    <div class="wrap">
+        <div class="content-top">
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content-middle">
+            <div class="middle-top">
+                <h2>Recent Work</h2>
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter="app card icon logo web"> </span></li>
+                    <li><span class="filter" data-filter="app"> </span></li>
+                    <li><span class="filter active" data-filter="app card icon logo1 web"> </span></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="container">
+                <div id="portfoliolist" style="     " class="">
+                    <div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
+                        <div class="portfolio-wrapper">
+                            <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                            <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-right">
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project One</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic1.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Two</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic2.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Three</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic3.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Four</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic4.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Five</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic5.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Six</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/basetheme-design/js/jquery/jquery.mixitup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var filterList = {
+
+                    init: function () {
+
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $(\'#portfoliolist\').mixitup({
+                            targetSelector: \'.portfolio\',
+                            filterSelector: \'.filter\',
+                            effects: [\'fade\'],
+                            easing: \'snap\',
+                            // call the hover effect
+                            onMixEnd: filterList.hoverEffect()
+                        });
+
+                    },
+
+                    hoverEffect: function () {
+
+                        // Simple parallax effect
+                        $(\'#portfoliolist .portfolio\').hover(
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: 0}, 200, \'easeOutQuad\');
+                                    $(this).find(\'img\').stop().animate({top: -30}, 500, \'easeOutQuad\');
+                                },
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: -40}, 200, \'easeInQuad\');
+                                    $(this).find(\'img\').stop().animate({top: 0}, 300, \'easeOutQuad\');
+                                }
+                        );
+
+                    }
+
+                };
+
+                // Run the show!
+                filterList.init();
+
+
+            });
+        </script>
+    </div>
 </div>
 <div class="footer">
     <div class="wrap">
@@ -284,7 +411,8 @@
 
 
 </body>
-</html>',
+</html>
+',
     '_isForward' => false,
   ),
   'contentType' => 
@@ -304,7 +432,7 @@
   array (
     '[[%lf_site_name:htmlent]]' => 'lf_site_name',
     '[[%lf_description:htmlent]]' => 'lf_description',
-    '[[~3? &scheme=`full`]]' => 'http://modxws/public.html/index.php?id=3',
+    '[[~1? &scheme=`full`]]' => 'http://modxws/public.html/index.php?id=1',
     '[[$metaBase]]' => '<!DOCTYPE html>
 <html lang="ru">
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# ">
@@ -336,8 +464,8 @@
             });
         </script>
         <!-- end my metaBase -->
-        <!--<title>Блог lf_site_name</title>-->
-        <meta name="description" content="Статьи" />
+        <!--<title>Поздравляем!</title>-->
+        <meta name="description" content="lf_description" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
@@ -348,7 +476,7 @@
         <!-- Add to homescreen for Safari on iOS -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="Блог lf_site_name">
+        <meta name="apple-mobile-web-app-title" content="Поздравляем!">
 
         <link rel="apple-touch-icon" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="76x76" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon-ipad.png">
@@ -357,7 +485,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="[[++basetheme.design_url]]images/iconsite/apple-touch-icon-iphone6plus-retina.png">
 
         <!-- Tile icon for Win8 -->
-        <meta name="application-name" content="Блог lf_site_name">
+        <meta name="application-name" content="Поздравляем!">
         <meta name="msapplication-TileColor" content="#79b316">
         <meta name="msapplication-square70x70logo" content="[[++basetheme.design_url]]images/iconsite/msapplication-square70x70logo.png"/>
         <meta name="msapplication-square150x150logo" content="[[++basetheme.design_url]]images/iconsite/msapplication-square150x150logo.png"/>
@@ -368,9 +496,9 @@
 		<meta name="cmsmagazine" content="a39ef97fd1d4cf6d3e103f0ff48ea4f6" />
 
         <!-- SOCIAL BLOCK -->
-        <meta property="og:title" content="Блог lf_site_name" >
-        <meta property="og:description" content="Статьи" >
-        <meta property="og:url" content="http://modxws/public.html/index.php?id=3" />
+        <meta property="og:title" content="Поздравляем!" >
+        <meta property="og:description" content="lf_description" >
+        <meta property="og:url" content="http://modxws/public.html/index.php?id=1" />
 
         <meta property="og:image" content="[[++basetheme.design_url]]images/iconsite/social-image.png" >
         <meta property="og:site_name" content="lf_site_name" />
@@ -384,8 +512,8 @@
         <meta name="twitter:card" content="summary_large_image">
         
         
-        <meta name="twitter:title" content="Блог lf_site_name">
-        <meta name="twitter:description" content="Статьи">
+        <meta name="twitter:title" content="Поздравляем!">
+        <meta name="twitter:description" content="lf_description">
         <meta name="twitter:image:src" content="[[++basetheme.design_url]]images/iconsite/twitter-image.png">
 
         <!-- Social: Google+ / Schema.org  -->
@@ -438,10 +566,10 @@
     </head>
     <body itemscope itemtype="http://schema.org/WebSite">
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Блог lf_site_name">
-        <meta itemprop="description" content="Статьи">
+        <meta itemprop="name" content="Поздравляем!">
+        <meta itemprop="description" content="lf_description">
         <link itemprop="image" content="[[++basetheme.design_url]]images/iconsite/social-image.png">',
-    '[[pdoMenu? &level=`1` &parents=`0`  &outerClass=`nav`]]' => '<ul class="nav"><li class="first"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last active"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>',
+    '[[pdoMenu? &level=`1` &parents=`0`  &outerClass=`nav`]]' => '<ul class="nav"><li class="first active"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>',
     '[[$headerBase]]' => '<div class="header">
     <div class="wrap">
         <div class="project-top">
@@ -450,7 +578,7 @@
             </div>
             <div class="cssmenu">
                 <ul>
-                    <ul class="nav"><li class="first"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last active"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>
+                    <ul class="nav"><li class="first active"><a href="http://modxws/public.html/index.php?id=1" >Главная</a></li><li class="last"><a href="http://modxws/public.html/index.php?id=3" >Блог</a></li></ul>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -458,10 +586,144 @@
     </div>
 </div>
 ',
-    '[[$navPage]]' => '<div class="page-nav">
-    <ul>
-        [[!+page.nav]]
-    </ul>
+    '[[$indexContent]]' => '<body>
+
+<div class="main">
+    <div class="wrap">
+        <div class="content-top">
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content-middle">
+            <div class="middle-top">
+                <h2>Recent Work</h2>
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter="app card icon logo web"> </span></li>
+                    <li><span class="filter" data-filter="app"> </span></li>
+                    <li><span class="filter active" data-filter="app card icon logo1 web"> </span></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="container">
+                <div id="portfoliolist" style="     " class="">
+                    <div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
+                        <div class="portfolio-wrapper">
+                            <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                            <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-right">
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project One</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic1.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Two</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic2.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Three</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic3.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Four</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic4.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Five</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic5.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Six</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/basetheme-design/js/jquery/jquery.mixitup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var filterList = {
+
+                    init: function () {
+
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $(\'#portfoliolist\').mixitup({
+                            targetSelector: \'.portfolio\',
+                            filterSelector: \'.filter\',
+                            effects: [\'fade\'],
+                            easing: \'snap\',
+                            // call the hover effect
+                            onMixEnd: filterList.hoverEffect()
+                        });
+
+                    },
+
+                    hoverEffect: function () {
+
+                        // Simple parallax effect
+                        $(\'#portfoliolist .portfolio\').hover(
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: 0}, 200, \'easeOutQuad\');
+                                    $(this).find(\'img\').stop().animate({top: -30}, 500, \'easeOutQuad\');
+                                },
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: -40}, 200, \'easeInQuad\');
+                                    $(this).find(\'img\').stop().animate({top: 0}, 300, \'easeOutQuad\');
+                                }
+                        );
+
+                    }
+
+                };
+
+                // Run the show!
+                filterList.init();
+
+
+            });
+        </script>
+    </div>
 </div>',
     '[[$footerBase]]' => '<div class="footer">
     <div class="wrap">
@@ -539,13 +801,6 @@
 
 </body>
 </html>',
-    '[[$?namespace=``&limit=`2`&offset=`0`&page=`1`&pageVarKey=`page`&totalVar=`total`&pageLimit=`5`&elementClass=`modSnippet`&pageNavVar=`page.nav`&pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageNavOuterTpl=`[[+first]][[+prev]][[+pages]][[+next]][[+last]]`&pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>`&pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>`&pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>`&pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>`&cache=``&cache_key=`resource`&cache_handler=`xPDOFileCache`&cache_expires=`0`&pageNavScheme=``&element=`getResources`&tpl=`viewBlogList`&parents=`3`&total=`3`&pageOneLimit=`2`&actualLimit=`2`&toPlaceholder=``&qs=`135ff1d17060a58ef9f130b650d5353b`&pageCount=`2`&href=`http://modxws/public.html/index.php?id=3`&pageNo=`1`]]' => '<li[[+activeClasses]]><a class="active"[[+title]] href="http://modxws/public.html/index.php?id=3">1</a></li>',
-    '[[$?namespace=``&limit=`2`&offset=`0`&page=`1`&pageVarKey=`page`&totalVar=`total`&pageLimit=`5`&elementClass=`modSnippet`&pageNavVar=`page.nav`&pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageNavOuterTpl=`[[+first]][[+prev]][[+pages]][[+next]][[+last]]`&pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>`&pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>`&pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>`&pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>`&cache=``&cache_key=`resource`&cache_handler=`xPDOFileCache`&cache_expires=`0`&pageNavScheme=``&element=`getResources`&tpl=`viewBlogList`&parents=`3`&total=`3`&pageOneLimit=`2`&actualLimit=`2`&toPlaceholder=``&qs=`b52da855849e869461df0e23eaa8e2bc`&pageCount=`2`&href=`http://modxws/public.html/index.php?id=3&amp;page=2`&pageNo=`2`]]' => '<li[[+classes]]><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">2</a></li>',
-    '[[$?namespace=``&limit=`2`&offset=`0`&page=`1`&pageVarKey=`page`&totalVar=`total`&pageLimit=`5`&elementClass=`modSnippet`&pageNavVar=`page.nav`&pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageNavOuterTpl=`[[+first]][[+prev]][[+pages]][[+next]][[+last]]`&pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>`&pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>`&pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>`&pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>`&cache=``&cache_key=`resource`&cache_handler=`xPDOFileCache`&cache_expires=`0`&pageNavScheme=``&element=`getResources`&tpl=`viewBlogList`&parents=`3`&total=`3`&pageOneLimit=`2`&actualLimit=`2`&toPlaceholder=``&qs=`247359eff4437a1f76f57a575c27f89b`&pageCount=`2`&href=`http://modxws/public.html/index.php?id=3&amp;page=2`&pageNo=`2`]]' => '<li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">&gt;&gt;</a></li>',
-    '[[$?namespace=``&limit=`2`&offset=`0`&page=`1`&pageVarKey=`page`&totalVar=`total`&pageLimit=`5`&elementClass=`modSnippet`&pageNavVar=`page.nav`&pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageNavOuterTpl=`[[+first]][[+prev]][[+pages]][[+next]][[+last]]`&pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>`&pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>`&pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>`&pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>`&cache=``&cache_key=`resource`&cache_handler=`xPDOFileCache`&cache_expires=`0`&pageNavScheme=``&element=`getResources`&tpl=`viewBlogList`&parents=`3`&total=`3`&pageOneLimit=`2`&actualLimit=`2`&toPlaceholder=``&qs=`8fb631a154a0283aa094a33e2ebb679e`&pageCount=`2`&href=`http://modxws/public.html/index.php?id=3&amp;page=2`&pageNo=`2`]]' => '<li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">Last</a></li>',
-    '[[$?namespace=``&limit=`2`&offset=`0`&page=`1`&pageVarKey=`page`&totalVar=`total`&pageLimit=`5`&elementClass=`modSnippet`&pageNavVar=`page.nav`&pageNavTpl=`<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageNavOuterTpl=`[[+first]][[+prev]][[+pages]][[+next]][[+last]]`&pageActiveTpl=`<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`&pageFirstTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>`&pageLastTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>`&pagePrevTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>`&pageNextTpl=`<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>`&cache=``&cache_key=`resource`&cache_handler=`xPDOFileCache`&cache_expires=`0`&pageNavScheme=``&element=`getResources`&tpl=`viewBlogList`&parents=`3`&total=`3`&pageOneLimit=`2`&actualLimit=`2`&toPlaceholder=``&qs=`a03e248e560b4fc45a3ba860c8b6608c`&pageCount=`2`&pages=`<li[[+activeClasses]]><a class="active"[[+title]] href="http://modxws/public.html/index.php?id=3">1</a></li>
-<li[[+classes]]><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">2</a></li>`&next=`<li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">&gt;&gt;</a></li>`&last=`<li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">Last</a></li>`]]' => '[[+first]][[+prev]]<li[[+activeClasses]]><a class="active"[[+title]] href="http://modxws/public.html/index.php?id=3">1</a></li>
-<li[[+classes]]><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">2</a></li><li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">&gt;&gt;</a></li><li class="control"><a[[+classes]][[+title]] href="http://modxws/public.html/index.php?id=3&amp;page=2">Last</a></li>',
   ),
   'sourceCache' => 
   array (
@@ -943,33 +1198,301 @@
           'is_stream' => true,
         ),
       ),
-      'navPage' => 
+      'indexContent' => 
       array (
         'fields' => 
         array (
-          'id' => 39,
+          'id' => 32,
           'source' => 1,
           'property_preprocess' => false,
-          'name' => 'navPage',
-          'description' => '',
+          'name' => 'indexContent',
+          'description' => 'контент главной страницы',
           'editor_type' => 0,
-          'category' => 3,
+          'category' => 4,
           'cache_type' => 0,
-          'snippet' => '<div class="page-nav">
-    <ul>
-        [[!+page.nav]]
-    </ul>
+          'snippet' => '<body>
+
+<div class="main">
+    <div class="wrap">
+        <div class="content-top">
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content-middle">
+            <div class="middle-top">
+                <h2>Recent Work</h2>
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter="app card icon logo web"> </span></li>
+                    <li><span class="filter" data-filter="app"> </span></li>
+                    <li><span class="filter active" data-filter="app card icon logo1 web"> </span></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="container">
+                <div id="portfoliolist" style="     " class="">
+                    <div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
+                        <div class="portfolio-wrapper">
+                            <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                            <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-right">
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project One</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic1.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Two</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic2.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Three</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic3.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Four</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic4.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Five</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic5.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Six</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/basetheme-design/js/jquery/jquery.mixitup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var filterList = {
+
+                    init: function () {
+
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $(\'#portfoliolist\').mixitup({
+                            targetSelector: \'.portfolio\',
+                            filterSelector: \'.filter\',
+                            effects: [\'fade\'],
+                            easing: \'snap\',
+                            // call the hover effect
+                            onMixEnd: filterList.hoverEffect()
+                        });
+
+                    },
+
+                    hoverEffect: function () {
+
+                        // Simple parallax effect
+                        $(\'#portfoliolist .portfolio\').hover(
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: 0}, 200, \'easeOutQuad\');
+                                    $(this).find(\'img\').stop().animate({top: -30}, 500, \'easeOutQuad\');
+                                },
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: -40}, 200, \'easeInQuad\');
+                                    $(this).find(\'img\').stop().animate({top: 0}, 300, \'easeOutQuad\');
+                                }
+                        );
+
+                    }
+
+                };
+
+                // Run the show!
+                filterList.init();
+
+
+            });
+        </script>
+    </div>
 </div>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => true,
-          'static_file' => 'assets/basetheme-elements/chunks/common/navPage.tpl',
-          'content' => '<div class="page-nav">
-    <ul>
-        [[!+page.nav]]
-    </ul>
+          'static_file' => 'assets/basetheme-elements/chunks/content/indexContent.tpl',
+          'content' => '<body>
+
+<div class="main">
+    <div class="wrap">
+        <div class="content-top">
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="col_1_of_4 span_1_of_4">
+                <h3><a href="#">Lorem Ipsum is simply</a></h3>
+                <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="button"><a href="#">Read More</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content-middle">
+            <div class="middle-top">
+                <h2>Recent Work</h2>
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter="app card icon logo web"> </span></li>
+                    <li><span class="filter" data-filter="app"> </span></li>
+                    <li><span class="filter active" data-filter="app card icon logo1 web"> </span></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="container">
+                <div id="portfoliolist" style="     " class="">
+                    <div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
+                        <div class="portfolio-wrapper">
+                            <p class="low-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor incididunt</p>
+                            <p class="thick">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-right">
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project One</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic1.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Two</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic2.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Three</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class=portfolio-top>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic3.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Four</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_10">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic4.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Five</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="product_box margin_r_last">
+                                <a href="project.html"><img src="assets/basetheme-design/images/pic5.jpg" alt="image"></a>
+                                <h3><a href="project.html">Project Six</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonumm. <a href="project.html">More...</a></p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/basetheme-design/js/jquery/jquery.mixitup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var filterList = {
+
+                    init: function () {
+
+                        // MixItUp plugin
+                        // http://mixitup.io
+                        $(\'#portfoliolist\').mixitup({
+                            targetSelector: \'.portfolio\',
+                            filterSelector: \'.filter\',
+                            effects: [\'fade\'],
+                            easing: \'snap\',
+                            // call the hover effect
+                            onMixEnd: filterList.hoverEffect()
+                        });
+
+                    },
+
+                    hoverEffect: function () {
+
+                        // Simple parallax effect
+                        $(\'#portfoliolist .portfolio\').hover(
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: 0}, 200, \'easeOutQuad\');
+                                    $(this).find(\'img\').stop().animate({top: -30}, 500, \'easeOutQuad\');
+                                },
+                                function () {
+                                    $(this).find(\'.label\').stop().animate({bottom: -40}, 200, \'easeInQuad\');
+                                    $(this).find(\'img\').stop().animate({top: 0}, 300, \'easeOutQuad\');
+                                }
+                        );
+
+                    }
+
+                };
+
+                // Run the show!
+                filterList.init();
+
+
+            });
+        </script>
+    </div>
 </div>',
         ),
         'policies' => 
@@ -3088,509 +3611,6 @@ if (!empty($toPlaceholder)) {
           array (
           ),
           'is_stream' => true,
-        ),
-      ),
-      'getPage' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 22,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'getPage',
-          'description' => '<b>1.2.4-pl</b> A generic wrapper snippet for returning paged results and navigation from snippets that return limitable collections.',
-          'editor_type' => 0,
-          'category' => 0,
-          'cache_type' => 0,
-          'snippet' => '/**
- * @package getpage
- */
-$output = \'\';
-
-$properties =& $scriptProperties;
-$properties[\'page\'] = (isset($_GET[$properties[\'pageVarKey\']]) && ($page = intval($_GET[$properties[\'pageVarKey\']]))) ? $page : null;
-if ($properties[\'page\'] === null) {
-    $properties[\'page\'] = (isset($_REQUEST[$properties[\'pageVarKey\']]) && ($page = intval($_REQUEST[$properties[\'pageVarKey\']]))) ? $page : 1;
-}
-$properties[\'limit\'] = (isset($_GET[\'limit\'])) ? intval($_GET[\'limit\']) : null;
-if ($properties[\'limit\'] === null) {
-    $properties[\'limit\'] = (isset($_REQUEST[\'limit\'])) ? intval($_REQUEST[\'limit\']) : intval($limit);
-}
-$properties[\'offset\'] = (!empty($properties[\'limit\']) && !empty($properties[\'page\'])) ? ($properties[\'limit\'] * ($properties[\'page\'] - 1)) : 0;
-$properties[\'totalVar\'] = empty($totalVar) ? "total" : $totalVar;
-$properties[$properties[\'totalVar\']] = !empty($properties[$properties[\'totalVar\']]) && $total = intval($properties[$properties[\'totalVar\']]) ? $total : 0;
-$properties[\'pageOneLimit\'] = (!empty($pageOneLimit) && $pageOneLimit = intval($pageOneLimit)) ? $pageOneLimit : $properties[\'limit\'];
-$properties[\'actualLimit\'] = $properties[\'limit\'];
-$properties[\'pageLimit\'] = isset($pageLimit) && is_numeric($pageLimit) ? intval($pageLimit) : 5;
-$properties[\'element\'] = empty($element) ? \'\' : $element;
-$properties[\'elementClass\'] = empty($elementClass) ? \'modChunk\' : $elementClass;
-$properties[\'pageNavVar\'] = empty($pageNavVar) ? \'page.nav\' : $pageNavVar;
-$properties[\'pageNavTpl\'] = !isset($pageNavTpl) ? "<li[[+classes]]><a[[+classes]][[+title]] href=\\"[[+href]]\\">[[+pageNo]]</a></li>" : $pageNavTpl;
-$properties[\'pageNavOuterTpl\'] = !isset($pageNavOuterTpl) ? "[[+first]][[+prev]][[+pages]][[+next]][[+last]]" : $pageNavOuterTpl;
-$properties[\'pageActiveTpl\'] = !isset($pageActiveTpl) ? "<li[[+activeClasses:default=` class=\\"active\\"`]]><a[[+activeClasses:default=` class=\\"active\\"`]][[+title]] href=\\"[[+href]]\\">[[+pageNo]]</a></li>" : $pageActiveTpl;
-$properties[\'pageFirstTpl\'] = !isset($pageFirstTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">First</a></li>" : $pageFirstTpl;
-$properties[\'pageLastTpl\'] = !isset($pageLastTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">Last</a></li>" : $pageLastTpl;
-$properties[\'pagePrevTpl\'] = !isset($pagePrevTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">&lt;&lt;</a></li>" : $pagePrevTpl;
-$properties[\'pageNextTpl\'] = !isset($pageNextTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">&gt;&gt;</a></li>" : $pageNextTpl;
-$properties[\'toPlaceholder\'] = !empty($toPlaceholder) ? $toPlaceholder : \'\';
-$properties[\'cache\'] = isset($cache) ? (boolean) $cache : (boolean) $modx->getOption(\'cache_resource\', null, false);
-if (empty($cache_key)) $properties[xPDO::OPT_CACHE_KEY] = $modx->getOption(\'cache_resource_key\', null, \'resource\');
-if (empty($cache_handler)) $properties[xPDO::OPT_CACHE_HANDLER] = $modx->getOption(\'cache_resource_handler\', null, \'xPDOFileCache\');
-if (empty($cache_expires)) $properties[xPDO::OPT_CACHE_EXPIRES] = (integer) $modx->getOption(\'cache_resource_expires\', null, 0);
-
-if ($properties[\'page\'] == 1 && $properties[\'pageOneLimit\'] !== $properties[\'actualLimit\']) {
-    $properties[\'limit\'] = $properties[\'pageOneLimit\'];
-}
-
-if ($properties[\'cache\']) {
-    $properties[\'cachePageKey\'] = $modx->resource->getCacheKey() . \'/\' . $properties[\'page\'] . \'/\' . md5(http_build_query($modx->request->getParameters()) . http_build_query($scriptProperties));
-    $properties[\'cacheOptions\'] = array(
-        xPDO::OPT_CACHE_KEY => $properties[xPDO::OPT_CACHE_KEY],
-        xPDO::OPT_CACHE_HANDLER => $properties[xPDO::OPT_CACHE_HANDLER],
-        xPDO::OPT_CACHE_EXPIRES => $properties[xPDO::OPT_CACHE_EXPIRES],
-    );
-}
-$cached = false;
-if ($properties[\'cache\']) {
-    if ($modx->getCacheManager()) {
-        $cached = $modx->cacheManager->get($properties[\'cachePageKey\'], $properties[\'cacheOptions\']);
-    }
-}
-if (empty($cached) || !isset($cached[\'properties\']) || !isset($cached[\'output\'])) {
-    $elementObj = $modx->getObject($properties[\'elementClass\'], array(\'name\' => $properties[\'element\']));
-    if ($elementObj) {
-        $elementObj->setCacheable(false);
-        if (!empty($properties[\'toPlaceholder\'])) {
-            $elementObj->process($properties);
-            $output = $modx->getPlaceholder($properties[\'toPlaceholder\']);
-        } else {
-            $output = $elementObj->process($properties);
-        }
-    }
-
-    include_once $modx->getOption(\'getpage.core_path\',$properties,$modx->getOption(\'core_path\', $properties, MODX_CORE_PATH) . \'components/getpage/\').\'include.getpage.php\';
-
-    $qs = $modx->request->getParameters();
-    $properties[\'qs\'] =& $qs;
-
-    $totalSet = $modx->getPlaceholder($properties[\'totalVar\']);
-    $properties[$properties[\'totalVar\']] = (($totalSet = intval($totalSet)) ? $totalSet : $properties[$properties[\'totalVar\']]);
-    if (!empty($properties[$properties[\'totalVar\']]) && !empty($properties[\'actualLimit\'])) {
-        if ($properties[\'pageOneLimit\'] !== $properties[\'actualLimit\']) {
-            $adjustedTotal = $properties[$properties[\'totalVar\']] - $properties[\'pageOneLimit\'];
-            $properties[\'pageCount\'] = $adjustedTotal > 0 ? ceil($adjustedTotal / $properties[\'actualLimit\']) + 1 : 1;
-        } else {
-            $properties[\'pageCount\'] = ceil($properties[$properties[\'totalVar\']] / $properties[\'actualLimit\']);
-        }
-    } else {
-        $properties[\'pageCount\'] = 1;
-    }
-    if (empty($properties[$properties[\'totalVar\']]) || empty($properties[\'actualLimit\']) || $properties[$properties[\'totalVar\']] <= $properties[\'actualLimit\'] || ($properties[\'page\'] == 1 && $properties[$properties[\'totalVar\']] <= $properties[\'pageOneLimit\'])) {
-        $properties[\'page\'] = 1;
-    } else {
-        $pageNav = getpage_buildControls($modx, $properties);
-        $properties[$properties[\'pageNavVar\']] = $modx->newObject(\'modChunk\')->process(array_merge($properties, $pageNav), $properties[\'pageNavOuterTpl\']);
-        if ($properties[\'page\'] > 1) {
-            $qs[$properties[\'pageVarKey\']] = $properties[\'page\'];
-        }
-    }
-
-    $properties[\'firstItem\'] = $properties[\'offset\'] + 1;
-    $properties[\'lastItem\'] = ($properties[\'offset\'] + $properties[\'limit\']) < $totalSet ? ($properties[\'offset\'] + $properties[\'limit\']) : $totalSet;
-
-    $properties[\'pageUrl\'] = $modx->makeUrl($modx->resource->get(\'id\'), \'\', $qs);
-    if ($properties[\'cache\'] && $modx->getCacheManager()) {
-        $cached = array(\'properties\' => $properties, \'output\' => $output);
-        $modx->cacheManager->set($properties[\'cachePageKey\'], $cached, $properties[xPDO::OPT_CACHE_EXPIRES], $properties[\'cacheOptions\']);
-    }
-} else {
-    $properties = $cached[\'properties\'];
-    $output = $cached[\'output\'];
-}
-$modx->setPlaceholders($properties, $properties[\'namespace\']);
-if (!empty($properties[\'toPlaceholder\'])) {
-    $modx->setPlaceholder($properties[\'toPlaceholder\'], $output);
-    $output = \'\';
-}
-
-return $output;',
-          'locked' => false,
-          'properties' => 
-          array (
-            'namespace' => 
-            array (
-              'name' => 'namespace',
-              'desc' => 'An execution namespace that serves as a prefix for placeholders set by a specific instance of the getPage snippet.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'An execution namespace that serves as a prefix for placeholders set by a specific instance of the getPage snippet.',
-              'area_trans' => '',
-            ),
-            'limit' => 
-            array (
-              'name' => 'limit',
-              'desc' => 'The result limit per page; can be overridden in the $_REQUEST.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '10',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The result limit per page; can be overridden in the $_REQUEST.',
-              'area_trans' => '',
-            ),
-            'offset' => 
-            array (
-              'name' => 'offset',
-              'desc' => 'The offset, or record position to start at within the collection for rendering results for the current page; should be calculated based on page variable set in pageVarKey.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '0',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The offset, or record position to start at within the collection for rendering results for the current page; should be calculated based on page variable set in pageVarKey.',
-              'area_trans' => '',
-            ),
-            'page' => 
-            array (
-              'name' => 'page',
-              'desc' => 'The page to display; this is determined based on the value indicated by the page variable set in pageVarKey, typically in the $_REQUEST.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '0',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The page to display; this is determined based on the value indicated by the page variable set in pageVarKey, typically in the $_REQUEST.',
-              'area_trans' => '',
-            ),
-            'pageVarKey' => 
-            array (
-              'name' => 'pageVarKey',
-              'desc' => 'The key of a property that indicates the current page.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'page',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The key of a property that indicates the current page.',
-              'area_trans' => '',
-            ),
-            'totalVar' => 
-            array (
-              'name' => 'totalVar',
-              'desc' => 'The key of a placeholder that must contain the total records in the limitable collection being paged.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'total',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The key of a placeholder that must contain the total records in the limitable collection being paged.',
-              'area_trans' => '',
-            ),
-            'pageLimit' => 
-            array (
-              'name' => 'pageLimit',
-              'desc' => 'The maximum number of pages to display when rendering paging controls',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '5',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The maximum number of pages to display when rendering paging controls',
-              'area_trans' => '',
-            ),
-            'elementClass' => 
-            array (
-              'name' => 'elementClass',
-              'desc' => 'The class of element that will be called by the getPage snippet instance.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'modSnippet',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The class of element that will be called by the getPage snippet instance.',
-              'area_trans' => '',
-            ),
-            'pageNavVar' => 
-            array (
-              'name' => 'pageNavVar',
-              'desc' => 'The key of a placeholder to be set with the paging navigation controls.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'page.nav',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The key of a placeholder to be set with the paging navigation controls.',
-              'area_trans' => '',
-            ),
-            'pageNavTpl' => 
-            array (
-              'name' => 'pageNavTpl',
-              'desc' => 'Content representing a single page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li[[+classes]]><a[[+classes]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing a single page navigation control.',
-              'area_trans' => '',
-            ),
-            'pageNavOuterTpl' => 
-            array (
-              'name' => 'pageNavOuterTpl',
-              'desc' => 'Content representing the layout of the page navigation controls.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '[[+first]][[+prev]][[+pages]][[+next]][[+last]]',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the layout of the page navigation controls.',
-              'area_trans' => '',
-            ),
-            'pageActiveTpl' => 
-            array (
-              'name' => 'pageActiveTpl',
-              'desc' => 'Content representing the current page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li[[+activeClasses]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the current page navigation control.',
-              'area_trans' => '',
-            ),
-            'pageFirstTpl' => 
-            array (
-              'name' => 'pageFirstTpl',
-              'desc' => 'Content representing the first page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li class="control"><a[[+classes]][[+title]] href="[[+href]]">First</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the first page navigation control.',
-              'area_trans' => '',
-            ),
-            'pageLastTpl' => 
-            array (
-              'name' => 'pageLastTpl',
-              'desc' => 'Content representing the last page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li class="control"><a[[+classes]][[+title]] href="[[+href]]">Last</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the last page navigation control.',
-              'area_trans' => '',
-            ),
-            'pagePrevTpl' => 
-            array (
-              'name' => 'pagePrevTpl',
-              'desc' => 'Content representing the previous page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&lt;&lt;</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the previous page navigation control.',
-              'area_trans' => '',
-            ),
-            'pageNextTpl' => 
-            array (
-              'name' => 'pageNextTpl',
-              'desc' => 'Content representing the next page navigation control.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '<li class="control"><a[[+classes]][[+title]] href="[[+href]]">&gt;&gt;</a></li>',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Content representing the next page navigation control.',
-              'area_trans' => '',
-            ),
-            'cache' => 
-            array (
-              'name' => 'cache',
-              'desc' => 'If true, unique page requests will be cached according to addition cache properties.',
-              'type' => 'combo-boolean',
-              'options' => '',
-              'value' => false,
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'If true, unique page requests will be cached according to addition cache properties.',
-              'area_trans' => '',
-            ),
-            'cache_key' => 
-            array (
-              'name' => 'cache_key',
-              'desc' => 'The key of the cache provider to use; leave empty to use the cache_resource_key cache partition (default is "resource").',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => false,
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The key of the cache provider to use; leave empty to use the cache_resource_key cache partition (default is "resource").',
-              'area_trans' => '',
-            ),
-            'cache_handler' => 
-            array (
-              'name' => 'cache_handler',
-              'desc' => 'The cache provider implementation to use; leave empty unless you are caching to a custom cache_key.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => false,
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The cache provider implementation to use; leave empty unless you are caching to a custom cache_key.',
-              'area_trans' => '',
-            ),
-            'cache_expires' => 
-            array (
-              'name' => 'cache_expires',
-              'desc' => 'The number of seconds before the cached pages expire and must be regenerated; leave empty to use the cache provider option for cache_expires.',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => false,
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'The number of seconds before the cached pages expire and must be regenerated; leave empty to use the cache provider option for cache_expires.',
-              'area_trans' => '',
-            ),
-            'pageNavScheme' => 
-            array (
-              'name' => 'pageNavScheme',
-              'desc' => 'Optionally specify a scheme for use when generating page navigation links; will use link_tag_scheme if empty or not specified (default is empty).',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '',
-              'lexicon' => NULL,
-              'area' => '',
-              'desc_trans' => 'Optionally specify a scheme for use when generating page navigation links; will use link_tag_scheme if empty or not specified (default is empty).',
-              'area_trans' => '',
-            ),
-          ),
-          'moduleguid' => '',
-          'static' => false,
-          'static_file' => '',
-          'content' => '/**
- * @package getpage
- */
-$output = \'\';
-
-$properties =& $scriptProperties;
-$properties[\'page\'] = (isset($_GET[$properties[\'pageVarKey\']]) && ($page = intval($_GET[$properties[\'pageVarKey\']]))) ? $page : null;
-if ($properties[\'page\'] === null) {
-    $properties[\'page\'] = (isset($_REQUEST[$properties[\'pageVarKey\']]) && ($page = intval($_REQUEST[$properties[\'pageVarKey\']]))) ? $page : 1;
-}
-$properties[\'limit\'] = (isset($_GET[\'limit\'])) ? intval($_GET[\'limit\']) : null;
-if ($properties[\'limit\'] === null) {
-    $properties[\'limit\'] = (isset($_REQUEST[\'limit\'])) ? intval($_REQUEST[\'limit\']) : intval($limit);
-}
-$properties[\'offset\'] = (!empty($properties[\'limit\']) && !empty($properties[\'page\'])) ? ($properties[\'limit\'] * ($properties[\'page\'] - 1)) : 0;
-$properties[\'totalVar\'] = empty($totalVar) ? "total" : $totalVar;
-$properties[$properties[\'totalVar\']] = !empty($properties[$properties[\'totalVar\']]) && $total = intval($properties[$properties[\'totalVar\']]) ? $total : 0;
-$properties[\'pageOneLimit\'] = (!empty($pageOneLimit) && $pageOneLimit = intval($pageOneLimit)) ? $pageOneLimit : $properties[\'limit\'];
-$properties[\'actualLimit\'] = $properties[\'limit\'];
-$properties[\'pageLimit\'] = isset($pageLimit) && is_numeric($pageLimit) ? intval($pageLimit) : 5;
-$properties[\'element\'] = empty($element) ? \'\' : $element;
-$properties[\'elementClass\'] = empty($elementClass) ? \'modChunk\' : $elementClass;
-$properties[\'pageNavVar\'] = empty($pageNavVar) ? \'page.nav\' : $pageNavVar;
-$properties[\'pageNavTpl\'] = !isset($pageNavTpl) ? "<li[[+classes]]><a[[+classes]][[+title]] href=\\"[[+href]]\\">[[+pageNo]]</a></li>" : $pageNavTpl;
-$properties[\'pageNavOuterTpl\'] = !isset($pageNavOuterTpl) ? "[[+first]][[+prev]][[+pages]][[+next]][[+last]]" : $pageNavOuterTpl;
-$properties[\'pageActiveTpl\'] = !isset($pageActiveTpl) ? "<li[[+activeClasses:default=` class=\\"active\\"`]]><a[[+activeClasses:default=` class=\\"active\\"`]][[+title]] href=\\"[[+href]]\\">[[+pageNo]]</a></li>" : $pageActiveTpl;
-$properties[\'pageFirstTpl\'] = !isset($pageFirstTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">First</a></li>" : $pageFirstTpl;
-$properties[\'pageLastTpl\'] = !isset($pageLastTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">Last</a></li>" : $pageLastTpl;
-$properties[\'pagePrevTpl\'] = !isset($pagePrevTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">&lt;&lt;</a></li>" : $pagePrevTpl;
-$properties[\'pageNextTpl\'] = !isset($pageNextTpl) ? "<li class=\\"control\\"><a[[+title]] href=\\"[[+href]]\\">&gt;&gt;</a></li>" : $pageNextTpl;
-$properties[\'toPlaceholder\'] = !empty($toPlaceholder) ? $toPlaceholder : \'\';
-$properties[\'cache\'] = isset($cache) ? (boolean) $cache : (boolean) $modx->getOption(\'cache_resource\', null, false);
-if (empty($cache_key)) $properties[xPDO::OPT_CACHE_KEY] = $modx->getOption(\'cache_resource_key\', null, \'resource\');
-if (empty($cache_handler)) $properties[xPDO::OPT_CACHE_HANDLER] = $modx->getOption(\'cache_resource_handler\', null, \'xPDOFileCache\');
-if (empty($cache_expires)) $properties[xPDO::OPT_CACHE_EXPIRES] = (integer) $modx->getOption(\'cache_resource_expires\', null, 0);
-
-if ($properties[\'page\'] == 1 && $properties[\'pageOneLimit\'] !== $properties[\'actualLimit\']) {
-    $properties[\'limit\'] = $properties[\'pageOneLimit\'];
-}
-
-if ($properties[\'cache\']) {
-    $properties[\'cachePageKey\'] = $modx->resource->getCacheKey() . \'/\' . $properties[\'page\'] . \'/\' . md5(http_build_query($modx->request->getParameters()) . http_build_query($scriptProperties));
-    $properties[\'cacheOptions\'] = array(
-        xPDO::OPT_CACHE_KEY => $properties[xPDO::OPT_CACHE_KEY],
-        xPDO::OPT_CACHE_HANDLER => $properties[xPDO::OPT_CACHE_HANDLER],
-        xPDO::OPT_CACHE_EXPIRES => $properties[xPDO::OPT_CACHE_EXPIRES],
-    );
-}
-$cached = false;
-if ($properties[\'cache\']) {
-    if ($modx->getCacheManager()) {
-        $cached = $modx->cacheManager->get($properties[\'cachePageKey\'], $properties[\'cacheOptions\']);
-    }
-}
-if (empty($cached) || !isset($cached[\'properties\']) || !isset($cached[\'output\'])) {
-    $elementObj = $modx->getObject($properties[\'elementClass\'], array(\'name\' => $properties[\'element\']));
-    if ($elementObj) {
-        $elementObj->setCacheable(false);
-        if (!empty($properties[\'toPlaceholder\'])) {
-            $elementObj->process($properties);
-            $output = $modx->getPlaceholder($properties[\'toPlaceholder\']);
-        } else {
-            $output = $elementObj->process($properties);
-        }
-    }
-
-    include_once $modx->getOption(\'getpage.core_path\',$properties,$modx->getOption(\'core_path\', $properties, MODX_CORE_PATH) . \'components/getpage/\').\'include.getpage.php\';
-
-    $qs = $modx->request->getParameters();
-    $properties[\'qs\'] =& $qs;
-
-    $totalSet = $modx->getPlaceholder($properties[\'totalVar\']);
-    $properties[$properties[\'totalVar\']] = (($totalSet = intval($totalSet)) ? $totalSet : $properties[$properties[\'totalVar\']]);
-    if (!empty($properties[$properties[\'totalVar\']]) && !empty($properties[\'actualLimit\'])) {
-        if ($properties[\'pageOneLimit\'] !== $properties[\'actualLimit\']) {
-            $adjustedTotal = $properties[$properties[\'totalVar\']] - $properties[\'pageOneLimit\'];
-            $properties[\'pageCount\'] = $adjustedTotal > 0 ? ceil($adjustedTotal / $properties[\'actualLimit\']) + 1 : 1;
-        } else {
-            $properties[\'pageCount\'] = ceil($properties[$properties[\'totalVar\']] / $properties[\'actualLimit\']);
-        }
-    } else {
-        $properties[\'pageCount\'] = 1;
-    }
-    if (empty($properties[$properties[\'totalVar\']]) || empty($properties[\'actualLimit\']) || $properties[$properties[\'totalVar\']] <= $properties[\'actualLimit\'] || ($properties[\'page\'] == 1 && $properties[$properties[\'totalVar\']] <= $properties[\'pageOneLimit\'])) {
-        $properties[\'page\'] = 1;
-    } else {
-        $pageNav = getpage_buildControls($modx, $properties);
-        $properties[$properties[\'pageNavVar\']] = $modx->newObject(\'modChunk\')->process(array_merge($properties, $pageNav), $properties[\'pageNavOuterTpl\']);
-        if ($properties[\'page\'] > 1) {
-            $qs[$properties[\'pageVarKey\']] = $properties[\'page\'];
-        }
-    }
-
-    $properties[\'firstItem\'] = $properties[\'offset\'] + 1;
-    $properties[\'lastItem\'] = ($properties[\'offset\'] + $properties[\'limit\']) < $totalSet ? ($properties[\'offset\'] + $properties[\'limit\']) : $totalSet;
-
-    $properties[\'pageUrl\'] = $modx->makeUrl($modx->resource->get(\'id\'), \'\', $qs);
-    if ($properties[\'cache\'] && $modx->getCacheManager()) {
-        $cached = array(\'properties\' => $properties, \'output\' => $output);
-        $modx->cacheManager->set($properties[\'cachePageKey\'], $cached, $properties[xPDO::OPT_CACHE_EXPIRES], $properties[\'cacheOptions\']);
-    }
-} else {
-    $properties = $cached[\'properties\'];
-    $output = $cached[\'output\'];
-}
-$modx->setPlaceholders($properties, $properties[\'namespace\']);
-if (!empty($properties[\'toPlaceholder\'])) {
-    $modx->setPlaceholder($properties[\'toPlaceholder\'], $output);
-    $output = \'\';
-}
-
-return $output;',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
         ),
       ),
     ),

@@ -681,3 +681,155 @@ Array
     [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
 )
 
+[2016-10-19 19:02:34] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:04:51] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:18:15] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:18:19] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:18:22] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:19:57] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:19:59] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:20:21] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:20:25] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:20:28] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:28:16] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:28:19] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:28:25] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:06] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:08] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:11] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:33] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:35] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+
+[2016-10-19 19:51:37] (ERROR @ C:\OpenServer\domains\modxws\public.html\core\xpdo\om\xpdoobject.class.php : 240) Error HY000 executing statement: 
+Array
+(
+    [0] => HY000
+    [1] => 3065
+    [2] => Expression #1 of ORDER BY clause is not in SELECT list, references column 'modx.tvtpl.rank' which is not in SELECT list; this is incompatible with DISTINCT
+)
+

@@ -15,4 +15,5 @@ return array (
   12 => '/root/n_type_chunk/n_chunk_category_1/n_chunk_category_2',
   13 => '/root/n_type_chunk/n_chunk_category_1/n_chunk_category_3',
   14 => '/root/n_type_chunk/n_chunk_category_1/n_chunk_category_4',
+  15 => '/root/n_type_snippet/n_snippet_category_9',
 );
